@@ -1,0 +1,6 @@
+framework module Pods_ButtonAnimationSample_ButtonAnimationSampleUITests {
+  umbrella header "Pods-ButtonAnimationSample-ButtonAnimationSampleUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B133E99DDD237F60E1E17A2 /* Pods_ButtonAnimationSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEE118129FC3B29BC0D2B584 /* Pods_ButtonAnimationSample.framework */; };
+		765DC77A51079A90F83757C2 /* Pods_ButtonAnimationSample_ButtonAnimationSampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 997D8D84EB30A6DFF8951CD6 /* Pods_ButtonAnimationSample_ButtonAnimationSampleUITests.framework */; };
+		B44A6358273961E700103076 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44A6357273961E700103076 /* AppDelegate.swift */; };
+		B44A635A273961E700103076 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44A6359273961E700103076 /* SceneDelegate.swift */; };
+		B44A635C273961E700103076 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44A635B273961E700103076 /* ViewController.swift */; };
+		B44A635F273961E700103076 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B44A635D273961E700103076 /* Main.storyboard */; };
+		B44A6361273961ED00103076 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B44A6360273961ED00103076 /* Assets.xcassets */; };
+		B44A6364273961ED00103076 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B44A6362273961ED00103076 /* LaunchScreen.storyboard */; };
+		B44A636F273961EE00103076 /* ButtonAnimationSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44A636E273961EE00103076 /* ButtonAnimationSampleTests.swift */; };
+		B44A6379273961EE00103076 /* ButtonAnimationSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44A6378273961EE00103076 /* ButtonAnimationSampleUITests.swift */; };
+		B44A637B273961EE00103076 /* ButtonAnimationSampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44A637A273961EE00103076 /* ButtonAnimationSampleUITestsLaunchTests.swift */; };
+		B44A6388273AA47300103076 /* ExpandButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44A6387273AA47300103076 /* ExpandButton.swift */; };
+		B44A638A273AA55D00103076 /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44A6389273AA55D00103076 /* MenuButton.swift */; };
+		B44A638D273AA7ED00103076 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = B44A638C273AA7ED00103076 /* SnapKit */; };
+		B44A638F273AA8BE00103076 /* ActionButtonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44A638E273AA8BE00103076 /* ActionButtonModel.swift */; };
+		F968623BFD1B084ED357A82E /* Pods_ButtonAnimationSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA12FB13CAD8A31CD52832E3 /* Pods_ButtonAnimationSampleTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B44A636B273961EE00103076 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B44A634C273961E700103076 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B44A6353273961E700103076;
+			remoteInfo = ButtonAnimationSample;
+		};
+		B44A6375273961EE00103076 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B44A634C273961E700103076 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B44A6353273961E700103076;
+			remoteInfo = ButtonAnimationSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		58CF106AE2010A64AD74299C /* Pods-ButtonAnimationSample-ButtonAnimationSampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ButtonAnimationSample-ButtonAnimationSampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-ButtonAnimationSample-ButtonAnimationSampleUITests/Pods-ButtonAnimationSample-ButtonAnimationSampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6B60C037CE8384D9EF68FB2F /* Pods-ButtonAnimationSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ButtonAnimationSampleTests.release.xcconfig"; path = "Target Support Files/Pods-ButtonAnimationSampleTests/Pods-ButtonAnimationSampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		7500A189CB58C5515DCD649B /* Pods-ButtonAnimationSample-ButtonAnimationSampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ButtonAnimationSample-ButtonAnimationSampleUITests.release.xcconfig"; path = "Target Support Files/Pods-ButtonAnimationSample-ButtonAnimationSampleUITests/Pods-ButtonAnimationSample-ButtonAnimationSampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		997D8D84EB30A6DFF8951CD6 /* Pods_ButtonAnimationSample_ButtonAnimationSampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ButtonAnimationSample_ButtonAnimationSampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B44A6354273961E700103076 /* ButtonAnimationSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtonAnimationSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B44A6357273961E700103076 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B44A6359273961E700103076 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B44A635B273961E700103076 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B44A635E273961E700103076 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B44A6360273961ED00103076 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B44A6363273961ED00103076 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B44A6365273961ED00103076 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B44A636A273961EE00103076 /* ButtonAnimationSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonAnimationSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B44A636E273961EE00103076 /* ButtonAnimationSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAnimationSampleTests.swift; sourceTree = "<group>"; };
+		B44A6374273961EE00103076 /* ButtonAnimationSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonAnimationSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B44A6378273961EE00103076 /* ButtonAnimationSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAnimationSampleUITests.swift; sourceTree = "<group>"; };
+		B44A637A273961EE00103076 /* ButtonAnimationSampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAnimationSampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B44A6387273AA47300103076 /* ExpandButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandButton.swift; sourceTree = "<group>"; };
+		B44A6389273AA55D00103076 /* MenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
+		B44A638E273AA8BE00103076 /* ActionButtonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonModel.swift; sourceTree = "<group>"; };
+		DEE118129FC3B29BC0D2B584 /* Pods_ButtonAnimationSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ButtonAnimationSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA12FB13CAD8A31CD52832E3 /* Pods_ButtonAnimationSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ButtonAnimationSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC3CE15F35DEAFC3B8632FA /* Pods-ButtonAnimationSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ButtonAnimationSample.debug.xcconfig"; path = "Target Support Files/Pods-ButtonAnimationSample/Pods-ButtonAnimationSample.debug.xcconfig"; sourceTree = "<group>"; };
+		FDC3678B1C0130230E20D3B7 /* Pods-ButtonAnimationSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ButtonAnimationSampleTests.debug.xcconfig"; path = "Target Support Files/Pods-ButtonAnimationSampleTests/Pods-ButtonAnimationSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FEEE33BA5451CC4A00B62573 /* Pods-ButtonAnimationSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ButtonAnimationSample.release.xcconfig"; path = "Target Support Files/Pods-ButtonAnimationSample/Pods-ButtonAnimationSample.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B44A6351273961E700103076 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B133E99DDD237F60E1E17A2 /* Pods_ButtonAnimationSample.framework in Frameworks */,
+				B44A638D273AA7ED00103076 /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B44A6367273961EE00103076 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F968623BFD1B084ED357A82E /* Pods_ButtonAnimationSampleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B44A6371273961EE00103076 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				765DC77A51079A90F83757C2 /* Pods_ButtonAnimationSample_ButtonAnimationSampleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05F2967D737C73C1DC989634 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEE118129FC3B29BC0D2B584 /* Pods_ButtonAnimationSample.framework */,
+				997D8D84EB30A6DFF8951CD6 /* Pods_ButtonAnimationSample_ButtonAnimationSampleUITests.framework */,
+				FA12FB13CAD8A31CD52832E3 /* Pods_ButtonAnimationSampleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2CCDC1B53B91F4B7D5BC81FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FAC3CE15F35DEAFC3B8632FA /* Pods-ButtonAnimationSample.debug.xcconfig */,
+				FEEE33BA5451CC4A00B62573 /* Pods-ButtonAnimationSample.release.xcconfig */,
+				58CF106AE2010A64AD74299C /* Pods-ButtonAnimationSample-ButtonAnimationSampleUITests.debug.xcconfig */,
+				7500A189CB58C5515DCD649B /* Pods-ButtonAnimationSample-ButtonAnimationSampleUITests.release.xcconfig */,
+				FDC3678B1C0130230E20D3B7 /* Pods-ButtonAnimationSampleTests.debug.xcconfig */,
+				6B60C037CE8384D9EF68FB2F /* Pods-ButtonAnimationSampleTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B44A634B273961E700103076 = {
+			isa = PBXGroup;
+			children = (
+				B44A6356273961E700103076 /* ButtonAnimationSample */,
+				B44A636D273961EE00103076 /* ButtonAnimationSampleTests */,
+				B44A6377273961EE00103076 /* ButtonAnimationSampleUITests */,
+				B44A6355273961E700103076 /* Products */,
+				2CCDC1B53B91F4B7D5BC81FE /* Pods */,
+				05F2967D737C73C1DC989634 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B44A6355273961E700103076 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B44A6354273961E700103076 /* ButtonAnimationSample.app */,
+				B44A636A273961EE00103076 /* ButtonAnimationSampleTests.xctest */,
+				B44A6374273961EE00103076 /* ButtonAnimationSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B44A6356273961E700103076 /* ButtonAnimationSample */ = {
+			isa = PBXGroup;
+			children = (
+				B44A6357273961E700103076 /* AppDelegate.swift */,
+				B44A6359273961E700103076 /* SceneDelegate.swift */,
+				B44A635B273961E700103076 /* ViewController.swift */,
+				B44A635D273961E700103076 /* Main.storyboard */,
+				B44A6360273961ED00103076 /* Assets.xcassets */,
+				B44A6362273961ED00103076 /* LaunchScreen.storyboard */,
+				B44A6365273961ED00103076 /* Info.plist */,
+				B44A6387273AA47300103076 /* ExpandButton.swift */,
+				B44A6389273AA55D00103076 /* MenuButton.swift */,
+				B44A638E273AA8BE00103076 /* ActionButtonModel.swift */,
+			);
+			path = ButtonAnimationSample;
+			sourceTree = "<group>";
+		};
+		B44A636D273961EE00103076 /* ButtonAnimationSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				B44A636E273961EE00103076 /* ButtonAnimationSampleTests.swift */,
+			);
+			path = ButtonAnimationSampleTests;
+			sourceTree = "<group>";
+		};
+		B44A6377273961EE00103076 /* ButtonAnimationSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B44A6378273961EE00103076 /* ButtonAnimationSampleUITests.swift */,
+				B44A637A273961EE00103076 /* ButtonAnimationSampleUITestsLaunchTests.swift */,
+			);
+			path = ButtonAnimationSampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B44A6353273961E700103076 /* ButtonAnimationSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B44A637E273961EE00103076 /* Build configuration list for PBXNativeTarget "ButtonAnimationSample" */;
+			buildPhases = (
+				600CEF3D7AA0850EC4D54DED /* [CP] Check Pods Manifest.lock */,
+				B44A6350273961E700103076 /* Sources */,
+				B44A6351273961E700103076 /* Frameworks */,
+				B44A6352273961E700103076 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ButtonAnimationSample;
+			packageProductDependencies = (
+				B44A638C273AA7ED00103076 /* SnapKit */,
+			);
+			productName = ButtonAnimationSample;
+			productReference = B44A6354273961E700103076 /* ButtonAnimationSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B44A6369273961EE00103076 /* ButtonAnimationSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B44A6381273961EE00103076 /* Build configuration list for PBXNativeTarget "ButtonAnimationSampleTests" */;
+			buildPhases = (
+				E3B351EA195D2ACF64DB72E8 /* [CP] Check Pods Manifest.lock */,
+				B44A6366273961EE00103076 /* Sources */,
+				B44A6367273961EE00103076 /* Frameworks */,
+				B44A6368273961EE00103076 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B44A636C273961EE00103076 /* PBXTargetDependency */,
+			);
+			name = ButtonAnimationSampleTests;
+			productName = ButtonAnimationSampleTests;
+			productReference = B44A636A273961EE00103076 /* ButtonAnimationSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B44A6373273961EE00103076 /* ButtonAnimationSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B44A6384273961EE00103076 /* Build configuration list for PBXNativeTarget "ButtonAnimationSampleUITests" */;
+			buildPhases = (
+				0E63ED21A88BF27288524EE7 /* [CP] Check Pods Manifest.lock */,
+				B44A6370273961EE00103076 /* Sources */,
+				B44A6371273961EE00103076 /* Frameworks */,
+				B44A6372273961EE00103076 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B44A6376273961EE00103076 /* PBXTargetDependency */,
+			);
+			name = ButtonAnimationSampleUITests;
+			productName = ButtonAnimationSampleUITests;
+			productReference = B44A6374273961EE00103076 /* ButtonAnimationSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B44A634C273961E700103076 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					B44A6353273961E700103076 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					B44A6369273961EE00103076 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = B44A6353273961E700103076;
+					};
+					B44A6373273961EE00103076 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = B44A6353273961E700103076;
+					};
+				};
+			};
+			buildConfigurationList = B44A634F273961E700103076 /* Build configuration list for PBXProject "ButtonAnimationSample" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B44A634B273961E700103076;
+			packageReferences = (
+				B44A638B273AA7ED00103076 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			productRefGroup = B44A6355273961E700103076 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B44A6353273961E700103076 /* ButtonAnimationSample */,
+				B44A6369273961EE00103076 /* ButtonAnimationSampleTests */,
+				B44A6373273961EE00103076 /* ButtonAnimationSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B44A6352273961E700103076 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B44A6364273961ED00103076 /* LaunchScreen.storyboard in Resources */,
+				B44A6361273961ED00103076 /* Assets.xcassets in Resources */,
+				B44A635F273961E700103076 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B44A6368273961EE00103076 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B44A6372273961EE00103076 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E63ED21A88BF27288524EE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ButtonAnimationSample-ButtonAnimationSampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		600CEF3D7AA0850EC4D54DED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ButtonAnimationSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3B351EA195D2ACF64DB72E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ButtonAnimationSampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B44A6350273961E700103076 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B44A635C273961E700103076 /* ViewController.swift in Sources */,
+				B44A638F273AA8BE00103076 /* ActionButtonModel.swift in Sources */,
+				B44A6388273AA47300103076 /* ExpandButton.swift in Sources */,
+				B44A638A273AA55D00103076 /* MenuButton.swift in Sources */,
+				B44A6358273961E700103076 /* AppDelegate.swift in Sources */,
+				B44A635A273961E700103076 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B44A6366273961EE00103076 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B44A636F273961EE00103076 /* ButtonAnimationSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B44A6370273961EE00103076 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B44A6379273961EE00103076 /* ButtonAnimationSampleUITests.swift in Sources */,
+				B44A637B273961EE00103076 /* ButtonAnimationSampleUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B44A636C273961EE00103076 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B44A6353273961E700103076 /* ButtonAnimationSample */;
+			targetProxy = B44A636B273961EE00103076 /* PBXContainerItemProxy */;
+		};
+		B44A6376273961EE00103076 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B44A6353273961E700103076 /* ButtonAnimationSample */;
+			targetProxy = B44A6375273961EE00103076 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B44A635D273961E700103076 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B44A635E273961E700103076 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B44A6362273961ED00103076 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B44A6363273961ED00103076 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B44A637C273961EE00103076 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B44A637D273961EE00103076 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B44A637F273961EE00103076 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAC3CE15F35DEAFC3B8632FA /* Pods-ButtonAnimationSample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ButtonAnimationSample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swift-tk.ButtonAnimationSample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B44A6380273961EE00103076 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEEE33BA5451CC4A00B62573 /* Pods-ButtonAnimationSample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ButtonAnimationSample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swift-tk.ButtonAnimationSample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B44A6382273961EE00103076 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDC3678B1C0130230E20D3B7 /* Pods-ButtonAnimationSampleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swift-tk.ButtonAnimationSampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ButtonAnimationSample.app/ButtonAnimationSample";
+			};
+			name = Debug;
+		};
+		B44A6383273961EE00103076 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B60C037CE8384D9EF68FB2F /* Pods-ButtonAnimationSampleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swift-tk.ButtonAnimationSampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ButtonAnimationSample.app/ButtonAnimationSample";
+			};
+			name = Release;
+		};
+		B44A6385273961EE00103076 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58CF106AE2010A64AD74299C /* Pods-ButtonAnimationSample-ButtonAnimationSampleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swift-tk.ButtonAnimationSampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ButtonAnimationSample;
+			};
+			name = Debug;
+		};
+		B44A6386273961EE00103076 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7500A189CB58C5515DCD649B /* Pods-ButtonAnimationSample-ButtonAnimationSampleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swift-tk.ButtonAnimationSampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ButtonAnimationSample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B44A634F273961E700103076 /* Build configuration list for PBXProject "ButtonAnimationSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B44A637C273961EE00103076 /* Debug */,
+				B44A637D273961EE00103076 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B44A637E273961EE00103076 /* Build configuration list for PBXNativeTarget "ButtonAnimationSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B44A637F273961EE00103076 /* Debug */,
+				B44A6380273961EE00103076 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B44A6381273961EE00103076 /* Build configuration list for PBXNativeTarget "ButtonAnimationSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B44A6382273961EE00103076 /* Debug */,
+				B44A6383273961EE00103076 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B44A6384273961EE00103076 /* Build configuration list for PBXNativeTarget "ButtonAnimationSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B44A6385273961EE00103076 /* Debug */,
+				B44A6386273961EE00103076 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B44A638B273AA7ED00103076 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B44A638C273AA7ED00103076 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B44A638B273AA7ED00103076 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B44A634C273961E700103076 /* Project object */;
+}

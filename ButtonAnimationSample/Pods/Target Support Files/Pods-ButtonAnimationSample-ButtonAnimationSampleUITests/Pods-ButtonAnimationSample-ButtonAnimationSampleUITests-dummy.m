@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_ButtonAnimationSample_ButtonAnimationSampleUITests : NSObject
+@end
+@implementation PodsDummy_Pods_ButtonAnimationSample_ButtonAnimationSampleUITests
+@end
